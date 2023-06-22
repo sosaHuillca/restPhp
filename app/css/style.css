@@ -1,0 +1,72 @@
+:root{
+  --primary: #fff;
+  --secundary:yellowgreen;
+  --bg-primary: #222;
+  --bg-form:lightslategray;
+}
+body{
+background:var(--bg-primary);
+color:var(--primary);
+font-size:1.5rem;
+font-family:sans-serif;
+
+height:100vh;
+
+display: grid;
+grid-template-rows:auto 1fr auto;
+}
+header{
+  display:flex;
+  justify-content:space-between;
+}
+h1{
+  text-align:center;
+}
+a{
+  color:var(--secundary);
+}
+form{
+  display: grid;
+max-width: 350px;
+gap: 7px;
+background:var(--bg-form);
+padding: 10px;
+border-radius: 5px;
+margin-left: auto;
+margin-right: auto;
+}
+input{
+  padding: 7px;
+border-radius: 5px;
+border: none;
+}
+th{
+  padding: 10px;
+color: lightcoral;
+}
+table{
+  background: darkslategray;
+padding: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 35px;
+
+}
+form input[type="file"]{
+  background: darkgreen;
+padding: 15px;
+}
+.btn-success{
+  background: gold;
+color: cornflowerblue;
+font-size: 1.3rem;
+margin-top: 15px;
+border-radius: 5px;
+padding: 7px;
+border: none;
+}
+footer p{
+  text-align: center;
+background: black;
+padding: 50px;
+}
